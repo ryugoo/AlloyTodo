@@ -1,0 +1,10 @@
+<Alloy>
+  <TabGroup>
+    <Tab title="Tasks" id="tasksTab">
+      <Require type="view" src="Tasks" />
+    </Tab>
+    <Tab title="Done" id="doneTab">
+      <Require type="view" src="Done" />
+    </Tab>
+  </TabGroup>
+</Alloy>

@@ -1,0 +1,51 @@
+"#addWin[platform=ios]": {
+  backgroundColor: "#FFFFFF"
+}
+"Label": {
+  font: {
+    fontSize: 16,
+    fontWeight: "bold"
+  },
+  textAlign: "left",
+  color: "#333333",
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  top: 11,
+  bottom: 11,
+  left: 11
+}
+"Label[platform=android]": {
+  font: {
+    fontSize: "16sp"
+  },
+  color: "#FFFFFF"
+}
+"#todoLimit": {
+  type: Ti.UI.PICKER_TYPE_DATE,
+  locale: "ja"
+}
+"#inputTask": {
+  font: {
+    fontSize: 16
+  },
+  height: 96,
+  right: 11,
+  bottom: 11,
+  left: 11
+}
+"#inputTask[platform=ios]": {
+  borderWidth: 1,
+  borderColor: "#CCCCCC"
+}
+"#inputTask[platform=android]": {
+  font: {
+    fontSize: "16sp"
+  },
+  height: "96dp"
+}
+"#saveTask": {
+  width: Ti.UI.FILL,
+  right: 11,
+  bottom: 11,
+  left: 11
+}

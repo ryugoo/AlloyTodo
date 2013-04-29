@@ -1,0 +1,12 @@
+<Alloy>
+  <Window id="addWin" title="Add Task" tabBarHidden="true">
+    <ScrollView id="addWrap" layout="vertical" onClick="blurTextArea">
+      <Label>1. いつまでに</Label>
+      <Picker id="todoLimit" onChange="setLimitTime" />
+      <Label>2. 何を行う</Label>
+      <TextArea id="inputTask" />
+      <Label>3. 保存する</Label>
+      <Button id="saveTask" title="保存する" onClick="saveTask" />
+    </ScrollView>
+  </Window>
+</Alloy>
