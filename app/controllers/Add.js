@@ -2,7 +2,6 @@ $.todoLimit.minDate = new Date();
 function blurTextArea() {
   $.inputTask.blur();
 }
-
 function saveTask() {
   limitTime = limitTime || Date.now();
   var todo = Alloy.createModel("Todo", {
@@ -15,14 +14,13 @@ function saveTask() {
     $.addWin.close({
       animated: true
     });
-    Alloy.Collections.Todo.fetch();
     alert("Save!");
+    Alloy.Collections.Todo.fetch();
   } else {
     todo.destroy();
     alert("Failed");
   }
 }
-
 var limitTime;
 function setLimitTime(e) {
   limitTime = (e.value).getTime();

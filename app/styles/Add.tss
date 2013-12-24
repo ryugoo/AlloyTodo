@@ -3,21 +3,19 @@
 }
 "Label": {
   font: {
-    fontSize: 16,
+    fontSize: "16sp",
     fontWeight: "bold"
   },
   textAlign: "left",
   color: "#333333",
   width: Ti.UI.SIZE,
   height: Ti.UI.SIZE,
-  top: 11,
-  bottom: 11,
-  left: 11
+  top: "11dp",
+  bottom: "11dp",
+  left: "11dp",
+  right: "11dp"
 }
 "Label[platform=android]": {
-  font: {
-    fontSize: "16sp"
-  },
   color: "#FFFFFF"
 }
 "#todoLimit": {
@@ -26,26 +24,26 @@
 }
 "#inputTask": {
   font: {
-    fontSize: 16
+    fontSize: "16sp"
   },
-  height: 96,
-  right: 11,
-  bottom: 11,
-  left: 11
+  width: Ti.UI.FILL,
+  height: "96dp",
+  top: "11dp",
+  bottom: "11dp",
+  left: "11dp",
+  right: "11dp"
 }
 "#inputTask[platform=ios]": {
   borderWidth: 1,
   borderColor: "#CCCCCC"
 }
-"#inputTask[platform=android]": {
-  font: {
-    fontSize: "16sp"
-  },
-  height: "96dp"
-}
 "#saveTask": {
   width: Ti.UI.FILL,
-  right: 11,
-  bottom: 11,
-  left: 11
+  top: "11dp",
+  bottom: "11dp",
+  left: "11dp",
+  right: "11dp"
+}
+"#saveTask[platform=ios]": {
+  height: '44dp'
 }

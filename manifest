@@ -1,9 +1,8 @@
 #appname: Todo
-#appid: com.example.todo
-#type: mobile
-#guid: eb9e8f82-b4c2-4fa6-995a-6319d98e424d
-#version: 1.0
-#publisher: not specified
-#url: not specified
+#publisher: ryugoo
+#url: http://todo.example.com
 #image: appicon.png
-#desc: not specified
+#appid: com.example.todo
+#desc: undefined
+#type: ipad
+#guid: 39660a16-fcf4-452e-917a-3ed46673b219

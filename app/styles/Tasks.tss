@@ -1,17 +1,13 @@
 "#addButton[platform=ios]": {
   systemButton: Ti.UI.iPhone.SystemButton.COMPOSE
 }
-"#addButton[platform=android]": {
-  icon: "images/ic_action_edit.png",
-  showAsAction: Ti.Android.SHOW_AS_ACTION_IF_ROOM
-}
 "#taskWrap": {
   width: Ti.UI.FILL,
   height: Ti.UI.SIZE,
-  top: 6,
-  right: 11,
-  bottom: 6,
-  left: 11,
+  top: "6dp",
+  right: "11dp",
+  bottom: "6dp",
+  left: "11dp",
   layout: "horizontal"
 }
 ".taskText": {
@@ -21,21 +17,11 @@
 }
 "#task": {
   font: {
-    fontSize: 18,
+    fontSize: "18sp",
     fontWeight: "bold"
   }
 }
-"#task[platform=android]": {
-  font: {
-    fontSize: "18sp"
-  }
-}
 "#limitTime": {
-  font: {
-    fontSize: 14
-  }
-}
-"#limitTime[platform=android]": {
   font: {
     fontSize: "14sp"
   }

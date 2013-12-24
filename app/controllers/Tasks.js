@@ -7,6 +7,8 @@ function addTask() {
   addWin = Alloy.createController("Add").getView("addWin");
   Alloy.Globals.currentTab.open(addWin);
 }
+// Tasks コントローラのメソッドとして addTask 関数を登録する
+$.addTask = addTask;
 
 var moment = require("alloy/moment");
 function transData(model) {

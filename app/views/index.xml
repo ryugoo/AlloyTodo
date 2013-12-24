@@ -1,5 +1,5 @@
 <Alloy>
-  <TabGroup>
+  <TabGroup onOpen="tabOpen" onFocus="tabFocus">
     <Tab title="Tasks" id="tasksTab">
       <Require type="view" src="Tasks" />
     </Tab>
